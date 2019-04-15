@@ -4,7 +4,7 @@ success = input()
 participant = participant.replace("[","").replace("]","").replace('"',"").split(",")
 success = success.replace("[","").replace("]","").replace('"',"").split(",")
 answer = ''
-Flag = True
+#Flag = True
 participant.sort()
 success.append('zzz')
 success.sort()
